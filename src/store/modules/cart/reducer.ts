@@ -9,12 +9,7 @@ export const cart: Reducer<ICartState> = (state = initState, action) => {
   switch(action.type) {
     case 'ADD_PRODUCT_TO_CART': {
       const { product } = action.payload;
-
-      state.items.push({
-        product,
-        quantity: 1,
-      });
-
+      
       return {
         ...state,
         items: [
