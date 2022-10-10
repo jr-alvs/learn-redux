@@ -21,7 +21,11 @@
 - **Info List `->` Action `->` Reducer `->` Result**.
 - **Result `->` Reducer `->` Connect `->` Info List**.
 
-## `Anotações`
+### `Anotações`
 - Todas as verificações devem ficar no **Reducer**.
 - A **Action** nunca deve ter a responsabilidade de verificar algo.
 - **Redux Dev Tools**: Ajuda a debbugar as ações do Redux, permitindo voltar em determinadas etapas e avançar as mesmas através da timeline presente na extensão.
+
+### `Redux Saga`
+- É o middleware para realizar tratativas entre a **Action** e o **Reducer**.
+- 
