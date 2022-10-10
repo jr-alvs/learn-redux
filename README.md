@@ -17,6 +17,6 @@
 - Os middlewares interceptem a informação entre a Action e o Reducer, podendo assim tratar a informação recebida para executar algo, por exemplo, fazer uma Request na API ou verificar algum dado.
 - O middleware utilizado é o **Redux Saga**.
 
-## `Fluxo do Redux`
+### `Fluxo do Redux`
 - **Info List `->` Action `->` Reducer `->` Result**.
 - **Result `->` Reducer `->` Connect `->` Info List**.
