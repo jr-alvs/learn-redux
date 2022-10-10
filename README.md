@@ -20,3 +20,7 @@
 ### `Fluxo do Redux`
 - **Info List `->` Action `->` Reducer `->` Result**.
 - **Result `->` Reducer `->` Connect `->` Info List**.
+
+##
+- Todas as verificações devem ficar no **Reducer**.
+- A **Action** nunca deve ter a responsabilidade de verificar algo.
