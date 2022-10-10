@@ -18,7 +18,5 @@
 - O middleware utilizado é o **Redux Saga**.
 
 ## `Fluxo do Redux`
-# **Info List `->` Action `->` Reducer `->` Result**
-# **Result `->` Reducer `->` Connect `->` Info List**
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Info List `->` Action `->` Reducer `->` Result**
+**Result `->` Reducer `->` Connect `->` Info List**
