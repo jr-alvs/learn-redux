@@ -28,4 +28,5 @@
 
 ### `Redux Saga`
 - É o middleware para realizar tratativas entre a **Action** e o **Reducer**.
-- 
+- **yield** substitui o **await** nos generators.
+- **Generators** são uma maneira de criar funções assincronas, que esperam uma ação para retornar. 
