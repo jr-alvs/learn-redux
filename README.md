@@ -18,5 +18,5 @@
 - O middleware utilizado é o **Redux Saga**.
 
 ## `Fluxo do Redux`
-**Info List `->` Action `->` Reducer `->` Result**
-**Result `->` Reducer `->` Connect `->` Info List**
+- **Info List `->` Action `->` Reducer `->` Result**.
+- **Result `->` Reducer `->` Connect `->` Info List**.
